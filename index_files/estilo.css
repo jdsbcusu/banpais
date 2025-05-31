@@ -1,0 +1,153 @@
+.frameTasa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 470px;
+  background: #ffef11;
+  padding-top: 40px;
+}
+.frameTasa-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 960px;
+}
+.frameTasa-container-tasa-item {
+  display: flex;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .frameTasa-container-tasa-item {
+    width: 50%;
+  }
+}
+.frameTasa-container-tasa-item-prices {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 15px;
+}
+.frameTasa-container-tasa-item-prices .tituloTasa {
+  font-family: "Montserrat", sans-serif;
+  color: #004080;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.frameTasa-container-tasa-item-prices img {
+  width: 25px;
+  height: auto;
+  margin-right: 10px;
+}
+@media (max-width: 767.98px) {
+  .frameTasa-container-tasa-item-prices {
+    padding: 5px;
+    margin-bottom: 7px;
+  }
+  .frameTasa-container-tasa-item-prices .tituloTasa {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .frameTasa-container-tasa-item-prices img {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+  }
+  .frameTasa .conteTasa {
+    padding: 3px 6px !important;
+  }
+  .frameTasa .conteTasa p {
+    font-size: 14px;
+  }
+}
+.frameTasa .conteTasa {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+.frameTasa .conteTasa p {
+  font-family: "Montserrat", sans-serif;
+  margin: 5px;
+  color: #004080;
+}
+.frameTasa .gconvert {
+  width: 100%;
+  display: flex;
+  background: rgba(255, 255, 255, 0.5);
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+.frameTasa .gconvert h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #004080;
+  font-size: 22px;
+  margin: 10px 0;
+}
+.frameTasa .gconvert img {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+}
+.frameTasa .gconvert input {
+  border: 0;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+.frameTasa .gconvert .resultado {
+  font-family: "Montserrat", sans-serif;
+  color: #004080;
+  font-weight: 500;
+  text-align: center;
+  margin: 5px 0;
+}
+.frameTasa .gconvert .resultado span {
+    font-weight: 600;
+}
+.btn-qoute {
+  font-family: "Montserrat", sans-serif;
+  width: max-content;
+  padding: 15px 30px;
+  height: auto;
+  border-radius: 10px;
+  background: #003e7a;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 40px;
+  text-decoration: none;
+}
+@media (max-width: 767.98px) {
+  .frameTasa .gconvert h3 {
+    font-size: 15px;
+  }
+  .frameTasa .gconvert {
+   margin: 0 5px;
+  }
+  .frameTasa .gconvert input {
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  .btn-qoute {
+    margin-top: 30px;
+    font-size: 11px;
+  }
+}
